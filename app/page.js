@@ -16,7 +16,7 @@ export default function Home() {
       <div className='flex flex-col items-center  justify-center   '>
       <p className='p-2 text-3xl text-slate-50 text-left max-md:text-lg'>
         Heyyyy.... <span className='wave'>👋</span> <br />
-        I'm<span className=' hover:text-blue-100 text-purple-600 '> BHARAT KUMAR PALIWAL
+        I&apos;m <span className=' hover:text-blue-100 text-purple-600 '> BHARAT KUMAR PALIWAL
         </span> </p>
       <Text/>
       </div>
@@ -29,9 +29,9 @@ export default function Home() {
       <p className=' text-center text-3xl text-slate-50 mb-7 max-md:text-lg'>LET ME <span className="text-purple-600"> INTRODUCE </span> MYSELF</p>
       <p className='mb-3 max-md:text-sm'>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</p>
       <p className='italic mb-3 max-md:text-sm'>I am fluent in classics like <span className="text-purple-600"> JAVA, Javascript and Typescript </span>.</p>
-      <p className='mb-3 max-md:text-sm'>My field of Interest's are building new  Web Technologies and Products.</p>
+      <p className='mb-3 max-md:text-sm'>My field of Interest&apos;s are building new  Web Technologies and Products.</p>
       <p className='mb-3 max-md:text-sm'>Whenever possible, I also apply my passion for developing products with Modern Javascript Library and Frameworks  like React.js and Next.js</p>
-      <p className='mb-3 max-md:text-sm'>I am currently in my final year of bachelor's degree with a cumulative academic score of 9. CGPA.</p>
+      <p className='mb-3 max-md:text-sm'>I am currently in my final year of bachelor&apos;s degree with a cumulative academic score of 9. CGPA.</p>
       </div>
 
       <div className='w-1/2 '>

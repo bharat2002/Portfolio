@@ -10,7 +10,7 @@ const NavBar = () => {
     
   return (
         <div className='flex flex-row justify-between p-2 items-center' >
-            <Image width={150} height={150} src={image} />
+            <Image alt='logo' width={150} height={150} src={image} />
             <div className=' max-sm:hidden flex flex-row justify-between '>
                 <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100  ' href="/">HOME</Link>
                 <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100 '  href="/projects">PROJECTS</Link>
