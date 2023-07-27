@@ -12,7 +12,7 @@ import twitter from '/public/twitter.png'
 export default function Home() {
   return (
     <>
-    <div className=' pt-5 flex flex-row align-center justify-between mb-14 mx-14 w-6xl h-full max-lg:flex-col ' >
+    <div className=' pt-5 flex flex-row align-center justify-between mb-14 mx-14 font-bold w-6xl h-full max-lg:flex-col ' >
       <div className='flex flex-col items-center  justify-center   '>
       <p className='p-2 text-3xl text-slate-50 text-left max-md:text-lg'>
         Heyyyy.... <span className='wave'>👋</span> <br />

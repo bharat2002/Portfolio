@@ -6,7 +6,13 @@ body{
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   background-image: linear-gradient(to right, rgb(27 7 41), rgb(20 30 35));
   color:#94A3B8;
+}
+::-webkit-scrollbar-track {
+  background-color: gray;
+}
 
+::-webkit-scrollbar-thumb {
+  background-color: blue;
 }
  .wave{
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
