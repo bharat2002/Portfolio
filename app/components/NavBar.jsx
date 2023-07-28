@@ -14,8 +14,8 @@ const NavBar = () => {
             <div className=' max-sm:hidden flex flex-row justify-between '>
                 <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100  ' href="/">HOME</Link>
                 <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100 '  href="/projects">PROJECTS</Link>
-                <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100 '  href="/">ABOUT</Link>
-                <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100 ' href="/">CONTACT</Link>
+                <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100 '  href="/about">ABOUT</Link>
+                <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100 ' href="/contact">CONTACT</Link>
                 <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100' href="/resume/">RESUME</Link>
             </div>
             <div className='max-sm:flex hidden items-center'>

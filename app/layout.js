@@ -1,6 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import NavBar from './components/NavBar'
+import CopyrightText from './components/CopyrightText'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className='max-w-6xl mx-auto' >
       <NavBar/>
       {children}
+      <CopyrightText/>
       </body>
     </html>
   )
