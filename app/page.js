@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import heroimg from '/public/herimg.png'
-import Typewriter from 'typewriter-effect/dist/core';
 import connect from '/public/connect.png'
 import Text from './components/Text';
 import Link from 'next/link'
