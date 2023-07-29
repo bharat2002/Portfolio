@@ -73,6 +73,7 @@ const page = () => {
      ))
    }
   </div>
+  
  
   </div>
         
