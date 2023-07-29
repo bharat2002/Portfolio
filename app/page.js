@@ -20,7 +20,7 @@ export default function Home() {
       <Text/>
       </div>
       <div className='flex justify-center'>
-        <Image src={heroimg} />
+        <Image priority src={heroimg} />
       </div>
     </div>
     <div className='mb-24 mt-24 flex flex-row justify-center max-lg:flex-col-reverse items-center'>
