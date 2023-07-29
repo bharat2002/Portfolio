@@ -27,7 +27,7 @@ const aboutimages = [
   },
   {
     name:'Tailwind',
-    img: require('/public/about/tailwind.svg'),
+    img: require('/public/about/tailwind.png'),
   },
   {
     name:'C++',
