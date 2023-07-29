@@ -65,7 +65,9 @@ const page = () => {
      aboutimages.map((image) => (
         <div key={image.name} className='text-center flex flex-col items-center text-slate-50 px-6'>
           {image.name}
-          <Image priority height={50} width={50} src={image.img}/>
+          <div className='relative w-12 h-12'>
+          <Image priority fill src={image.img}/>
+          </div>
         </div>
        
      ))
