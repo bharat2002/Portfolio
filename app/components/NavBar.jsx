@@ -15,7 +15,6 @@ const NavBar = () => {
                 <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100  ' href="/">HOME</Link>
                 <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100 '  href="/projects">PROJECTS</Link>
                 <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100 '  href="/about">ABOUT</Link>
-                <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100 ' href="/contact">CONTACT</Link>
                 <Link className='px-2 py-2 mx-2 hover:text-slate-100 hover:scale-125 hover:ease-in duration-100' target='_blank' href="https://drive.google.com/file/d/1xjETO_dvXm88Ih5e7A1o0PML2Am264v8/view?usp=sharing">RESUME</Link>
             </div>
             <div className='max-sm:flex hidden items-center'>
@@ -39,7 +38,6 @@ const NavBar = () => {
             <Link onClick={() => setShowMenu(!showMenu)} className='px-2 py-2 mx-2 hover:ease-in duration-100 hover:text-slate-100 ' href="/">HOME</Link>
                 <Link onClick={() => setShowMenu(!showMenu)} className='px-2 py-2 mx-2  hover:ease-in duration-100 hover:text-slate-900 '  href="/projects/">PROJECTS</Link>
                 <Link onClick={() => setShowMenu(!showMenu)} className='px-2 py-2 mx-2  hover:ease-in duration-100 hover:text-slate-100 '  href="/about">ABOUT</Link>
-                <Link onClick={() => setShowMenu(!showMenu)} className='px-2 py-2 mx-2 h hover:ease-in duration-100 hover:text-slate-100 ' href="/contact">CONTACT</Link>
                 <Link  onClick={() => setShowMenu(!showMenu)} className='px-2 py-2 mx-2   hover:ease-in duration-100 hover:text-slate-100' target='_blank' href="https://drive.google.com/file/d/1xjETO_dvXm88Ih5e7A1o0PML2Am264v8/view?usp=sharing">RESUME</Link>
             </div>}
 
