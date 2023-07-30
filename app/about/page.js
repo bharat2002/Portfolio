@@ -4,6 +4,7 @@ import Image from 'next/image'
 import about from '/public/abouthero.png'
 
 
+
 const aboutimages = [
 
   {
@@ -54,10 +55,13 @@ const aboutimages = [
 
 const page = () => {
   return (
-    <div className='mx-14 w-6xl flex flex-col justify-center items-center overflow-hidden'> 
-    <div className='flex flex-row justify-center items-center  max-lg:flex-col '>
-    <p className='flex w-3/4 items-center'>I m a self-taught Front End developer from India. I build websites with a focus on providing the experience for everyone using them and responsiveness. Curious to learn more about developing scalable distribution systems, love problem solving, and care about writing and maintainable code. A responsive design makes your website accessible to all users, regardless of their devices</p>
-    <Image width={500} src={about}/>
+    <div className='mx-14 w-6xl flex flex-col justify-center h-screen items-center overflow-hidden'> 
+    <div className='flex flex-row justify-between items-start  max-lg:flex-col '>
+    <div className='flex flex-col w-1/2 max-lg:w-full  mt-8 '>
+    <h1 className='text-3xl text-start pb-4 text-purple-600'>ABOUT ME</h1>
+    <p className='flex '>I m a self-taught Front End developer from India. I build websites with a focus on providing the experience for everyone using them and responsiveness. Curious to learn more about developing scalable distribution systems, love problem solving, and care about writing and maintainable code. A responsive design makes your website accessible to all users, regardless of their devices</p>
+    </div>
+    <Image width={300} src={about}/>
     </div>
     <div className=" flex ">
   <div className="flex flex-row py-12 overflow-x-hidden animate-marquee whitespace-nowrap">
