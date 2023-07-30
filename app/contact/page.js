@@ -7,7 +7,7 @@ export default function Home() {
       <div className="flex flex-col justify-center p-2 ">
         <label htmlFor="frm-email">Email</label>
         <input
-         className='p-2 rounded-lg'
+         className='p-2 rounded-lg text-slate-90'
           id="frm-email"
           type="email"
           name="email"

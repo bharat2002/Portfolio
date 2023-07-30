@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
        <head>
         <link rel='shortcut icon' href='/public/image.ico'/>
       </head>
-      <body className='max-w-6xl mx-auto' >
+      <body className='max-w-6xl max-sm:max-w-full mx-auto' >
       <NavBar/>
       {children}
       <CopyrightText/>

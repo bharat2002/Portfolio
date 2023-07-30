@@ -28,7 +28,7 @@ export default function Home() {
         <Image src={connect}/>
         
       </div>
-    <div className='w-1/2 pt-16 mx-14 w-6xl h-full text-2xl mb-20 italic '>
+    <div className='w-1/2 max-md:w-3/4  pt-16 mx-14 w-6xl h-full text-2xl mb-20 italic '>
       <p className=' not-italic text-center text-3xl text-slate-50 mb-7 max-md:text-lg'>LET ME <span className="text-purple-600"> INTRODUCE </span> MYSELF</p>
       <p className='mb-3 max-md:text-sm'>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</p>
       <p className='italic mb-3 max-md:text-sm'>I am fluent in classics like <span className="text-slate-50"> JAVA, Javascript and Typescript </span>.</p>
